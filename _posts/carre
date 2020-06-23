@@ -1,0 +1,4 @@
+def  carre(valeur):
+    return valeur * valeur
+
+print(carre(25))
