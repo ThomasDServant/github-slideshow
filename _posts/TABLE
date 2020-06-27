@@ -1,0 +1,15 @@
+
+def  carre(valeur):
+    return valeur * valeur
+
+print(carre(25))
+
+
+
+def table(nb, max):
+    i = 0
+    while i < max:
+        print(i + 1, "*", nb, "=", (i + 1) * nb)
+        i += 1
+
+print(table(11, 20))
